@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<h1>Welcome to the Machine Learning API</h1><p>Use the endpoints to upload data, train models, and make predictions.</p>", 200
+    return  jsonify({"message": "Welcome to the Machine Learning API."}), 200
 
 # Upload endpoint
 @app.route('/upload', methods=['POST'])
