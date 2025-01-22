@@ -12,7 +12,7 @@ This repository contains a project aimed at predictive analysis for manufacturin
 - `model.py`: Contains the code for building and training the machine learning model.
 - `app.py`: Handles API requests and serves as the backend application.
 - `requirements.txt`: Specifies the required Python libraries.
-- `sample_dataset.csv`: A sample dataset for training and testing the model.
+- `dataset.csv`: A sample dataset for training and testing the model.
 
 ## Setup Instructions
 
